@@ -33,7 +33,8 @@ Widget __orderColumn(List<Widget> children) {
   return Padding(
     padding: const EdgeInsets.all(5.0),
     child: Column(
-      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.start,
+      verticalDirection: VerticalDirection.up,
       children: children,
     ),
   );
